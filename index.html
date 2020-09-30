@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Welcome to Pi</title>
+<style>
+body {
+	font-size: 1.2rem;
+}
+#content {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.center {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+
+details {
+	border: 1px dashed black;
+	padding: 10px;
+}
+
+details p {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+</style>
+</head>
+<body>
+	<div id="content">
+		<h1>Welcome to Justus' Pi</h1>
+		<div class="center"><img src="piserver.jpg">&nbsp;<img src="serverroom.jpg"></div>
+		<p>This website, the one you're on right now, is being served off the Raspberry Pi pictured above, which is located in my bedroom in rural Minnesota.</p>
+		<details>
+			<summary>"But what's a Raspberry Pi?" (click me)</summary>
+			<p>It's just a <a href="https://www.raspberrypi.org/">very tiny, very cheap computer</a>. Like "entree at a decent resaurant" cheap.</p>
+		</details>
+
+		<p>That's right, when you loaded this website, the packets that you sent across the internet from wherever you are ended up in my bedroom. Creepy.</p>
+
+		<p>I don't have a wired internet connection, just a wireless extender that connects to my landlord's wifi, which is the thing that the Pi is plugged into in the photo.</p>
+
+		<p>I'm using a neat service called <a href="https://pagekite.net">PageKite</a>. Basically, software running on the Pi reaches out and establishes a tunnel with PageKite's servers. PageKite then waits for incoming requests forwards them back across the tunnel to my Pi. Because the initial connection is outbound from my Pi, rather than inbound as with a normal server, I don't have to set up dynamic DNS, port forwarding, or any of that annoying difficult stuff.</p>
+
+		<p>This website will go down if my blind dog grabs the ethernet cable in her mouth and yanks the extender out of the wall. It has happened. It's right next to her bed.</p>
+
+		<h2>Extremely Infrequently Asked Questions</h2>
+
+		<h3>"Okay, but why?"</h3>
+		<p>I don't know...because?</p>
+
+		<h3>"Okay, but really, why?"</h3>
+		<p>Okay, fine, because it's neat that we can serve websites to the world without relying on big companies and data centers and stuff. The internet is designed to be democratic and decentralized, and that's really cool. <a href="https://www.eff.org/">Let's keep it that way</a>.</p>
+		<h3>"Okay, but you're using PageKite. Certainly they have data centers and servers and stuff."</h3>
+		<p>Okay, yeah, fine. But the point is that if I had <em>wanted to</em> I could have skipped them and set up dynamic DNS and port forwarding and all that dumb stuff.</p>
+
+		<h3>"But isn't dynamic DNS a service that requires data centers and servers stuff?"</h3>
+		<p>You know what?...I give up.</p> 
+
+		<h3>"What else do you do for fun?"</h3>
+		<p>Sometimes I sit in my bedroom and stare at the Pi, waiting for the status light to briefly blink green when someone loads this website. What a thrill! What fun! If you really want to make me happy, hit refresh a bunch of times!</p> 
+
+		<h3>"This is really awesome! What other cool things have you done?"</h3>
+
+		<p>Once I wrote a review of my favorite podcast on iTunes and they quoted it on the <a href="https://tbtl.net">homepage of their website</a>. Yes, that's me! I am <em>"TBTL Listener"</em>.</p>
+
+		<h3>"I simply must have more of this titilating content! Where else can I find you?"</h3>
+		<p>My primary website is at <a href="https://www.justus.ws">www.justus.ws</a>. It is not served from a Raspberry Pi because it certainly would not be able to handle the immeasurable* amount of internet traffic I receive**.</p>
+		<p style="font-size: 0.8rem;">*Immeasurable because I don't measure it.</p>
+		<p style="font-size: 0.8rem;">**Actually it probably could.</p>
+
+		<h2>Contact</h2>
+		<p><a href="mailto:pi@justus.ws">Email me</a>! I like emails.</p>
+
+</body>
+</html>
